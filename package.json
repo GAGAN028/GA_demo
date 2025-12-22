@@ -1,0 +1,14 @@
+{
+  "name": "ga_demo",
+  "version": "1.0.0",
+  "description": "Simple Node app that displays a Bootstrap welcome message",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
