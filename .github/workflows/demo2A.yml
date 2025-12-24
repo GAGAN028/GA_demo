@@ -1,0 +1,24 @@
+name: Sequential Jobs Example
+on:
+  #push:
+    # branches: [main]
+     
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Job Step
+        run: echo "This is the first job."
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Second Job Step
+        run: echo "This is the second job."
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Third Job Step
+        run: echo "This is the third job."
